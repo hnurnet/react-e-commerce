@@ -1,0 +1,60 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-holder {
+    max-width: 1100px;
+    margin: 0 auto;
+    
+  }
+  
+  .card-holder .card {
+    max-width: 240px;
+    border: 1px solid #4285F4;
+    border-radius: 3px;
+    -webkit-transition: -webkit-box-shadow 0.7s ease-in;
+    transition: -webkit-box-shadow 0.7s ease-in;
+    transition: box-shadow 0.7s ease-in;
+    transition: box-shadow 0.7s ease-in, -webkit-box-shadow 0.7s ease-in;
+    margin: 30px 15px;
+  }
+  
+  .card-holder .card h5 {
+    padding: 20px 15px;
+  }
+  
+  .card-holder .card p {
+    padding: 0 15px;
+    margin: 0 0 20px;
+  }
+  
+  .card-holder .card a {
+    padding: 10px 30px;
+    display: inline-block;
+    background-color: #E43E31;
+    margin: 0 15px 20px;
+    border: 1px solid #d92a1c;
+    border-radius: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 2px 1px #222222;
+    -webkit-transition: background-color 0.7s ease;
+    transition: background-color 0.7s ease;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .card-holder .card a:hover {
+    background-color: #c2190c;
+  }
+  
+  .card-holder .card:hover {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  
+  
+  
